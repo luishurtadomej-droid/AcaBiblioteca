@@ -1,0 +1,29 @@
+*libros*
+ISBN - pk
+Nombre_libro
+editorial
+autor
+
+*autores*
+id_autor - pk
+nombre
+
+
+*editoriales*
+id_editorial - pk
+nombre_editorial
+
+
+*usuarios*
+id_usuario - pk
+nombre_usuario
+
+
+*préstamo*
+id_préstamo - pk
+fecha_préstamo
+fecha_devolución
+ISBN - fk
+id_usuario - fk
+
+Identity
